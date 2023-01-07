@@ -4,9 +4,9 @@
 
 Demo #1             |  Demo #2
 :-------------------------:|:-------------------------:
-![](/images/demo1.png)  |  ![](/images/demo2.png)
+![](newplot.png)  |  ![](newplot1png)
 
-> * note "7 minutes done!" didn't take 7 minutes because of demo purposes.
+> * Piecharts created through methods of data visualization.
 
 ## What is this?
 A data science project that analyzes two marketing strategies and chooses the best marketing strategy for converting traffic into sales.
