@@ -35,3 +35,8 @@ Detailed should be developed by the analyst based on his/her visualizations!;)
 2. The various sections of comments represent chunks of code for the visualization of data.
 3. Therefore, it'll be preferable to run the project in a virtual environment using Jupyter.
 4. You can set up your venv using [this](https://www.geeksforgeeks.org/using-jupyter-notebook-in-virtual-environment/).
+5. Navigate to the directory of this project, and run
+```sh
+jupyter notebook
+```sh
+
