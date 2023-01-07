@@ -1,5 +1,13 @@
 # A-B Testing
 
+## At a Glance
+
+Demo #1             |  Demo #2
+:-------------------------:|:-------------------------:
+![](/images/demo1.png)  |  ![](/images/demo2.png)
+
+> * note "7 minutes done!" didn't take 7 minutes because of demo purposes.
+
 ## What is this?
 A data science project that analyzes two marketing strategies and chooses the best marketing strategy for converting traffic into sales.
 
@@ -20,7 +28,7 @@ The purpose of this project is to find a highly performant marketing strategy to
 
 ## Project Description
 This repository is a simulation of [Aman Kharwal's original code](https://thecleverprogrammer.com/2022/11/14/a-b-testing-using-python/) and is only proof of understanding of A/B Testing.
-Detailed should be developed by the analyst based on his/her visualizations!;)
+Detailed should be developed by the analyst based on his/her visualizations! ;)
 
 ## Needs of this project
 
@@ -35,7 +43,7 @@ Detailed should be developed by the analyst based on his/her visualizations!;)
 2. The various sections of comments represent chunks of code for the visualization of data.
 3. Therefore, it'll be preferable to run the project in a virtual environment using Jupyter.
 4. You can set up your venv using [this](https://www.geeksforgeeks.org/using-jupyter-notebook-in-virtual-environment/).
-5. Navigate to the directory of this project, and run
+5. Navigate to the directory of this project, and run:
 ```sh
 jupyter notebook
 ```
