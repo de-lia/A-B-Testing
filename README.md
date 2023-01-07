@@ -38,5 +38,5 @@ Detailed should be developed by the analyst based on his/her visualizations!;)
 5. Navigate to the directory of this project, and run
 ```sh
 jupyter notebook
-```sh
+```
 
