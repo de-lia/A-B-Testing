@@ -6,6 +6,7 @@ import plotly.express as px
 import plotly.io as pio
 pio.templates.default = "plotly_white"
 
+
 control_data = pd.read_csv("control_group.csv", sep=";")
 test_data = pd.read_csv("test_group.csv", sep=";")
 control_data.columns = ["Campaign Name", "Date", "Amount Spent", "Number of Impressions",
@@ -85,7 +86,7 @@ ab_data = ab_data.reset_index(drop=True)
 # fig.show()
 
 label = ["Amount Spent in Control Campaign",
-         "Amount Spent from Test Campaign"]
+         "Amount Spent in Test Campaign"]
 counts = [sum(control_data["Amount Spent"]),
           sum(test_data["Amount Spent"])]
 colors = ['gold', 'lightgreen']
@@ -96,3 +97,41 @@ fig.update_traces(hoverinfo='label+percent', textinfo='value',
                   marker=dict(colors=colors,
                               line=dict(color='black', width=3)))
 fig.show()
+
+# label = ["Purchases Made by Control Campaign",
+#          "Purchases Made by Test Campaign"]
+# counts = [sum(control_data["Purchases"]),
+#           sum(test_data["Purchases"])]
+# colors = ['gold', 'lightgreen']
+# fig = go.Figure(data=[go.Pie(labels=label, values=counts)])
+# fig.update_layout(title_text='Control Vs Test: Purchases')
+# fig.update_traces(hoverinfo='label+percent', textinfo='value',
+#                   textfont_size=30,
+#                   marker=dict(colors=colors,
+#                               line=dict(color='black', width=3)))
+# fig.show()
+
+
+# figure = px.scatter(data_frame = ab_data,
+#                     x="Content Viewed",
+#                     y="Website Clicks",
+#                     size="Website Clicks",
+#                     color="Campaign Name",
+#                     trendline="ols")
+# figure.show()
+
+# figure = px.scatter(data_frame = ab_data,
+#                     x="Added to Cart",
+#                     y="Content Viewed",
+#                     size="Added to Cart",
+#                     color="Campaign Name",
+#                     trendline="ols")
+# figure.show()
+
+# figure = px.scatter(data_frame = ab_data,
+#                     x="Purchases",
+#                     y="Added to Cart",
+#                     size="Purchases",
+#                     color="Campaign Name",
+#                     trendline="ols")
+# figure.show()
