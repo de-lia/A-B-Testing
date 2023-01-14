@@ -27,7 +27,7 @@ The purpose of this project is to find a highly performant marketing strategy to
 * Pycharm as IDE (or Jupyter)
 
 ## Project Description
-This repository is a simulation of [Aman Kharwal's original code](https://thecleverprogrammer.com/2022/11/14/a-b-testing-using-python/) and is only proof of understanding of A/B Testing.
+This repository is a simulation of [Aman Kharwal's original code](https://thecleverprogrammer.com/2022/11/14/a-b-testing-using-python/) and is only proof of the understanding of A/B Testing.
 Detailed should be developed by the analyst based on his/her visualizations! ;)
 
 ## Needs of this project
@@ -39,7 +39,11 @@ Detailed should be developed by the analyst based on his/her visualizations! ;)
 
 ## Getting Started
 
-1. Clone this repo and run it on Pycharm. 
+1. First, clone this repository using the following command:
+```sh
+git clone https://github.com/de-lia/A-B-Testing.git
+```
+2. Run it on it on your favorite editor. This project was originally created in Pycharm.
 2. The various sections of comments represent chunks of code for the visualization of data.
 3. Therefore, it'll be preferable to run the project in a virtual environment using Jupyter.
 4. You can set up your venv using [this](https://www.geeksforgeeks.org/using-jupyter-notebook-in-virtual-environment/).
