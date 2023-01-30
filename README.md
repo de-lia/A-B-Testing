@@ -2,11 +2,11 @@
 
 ## At a Glance
 
-Demo #1             |  Demo #2
-:-------------------------:|:-------------------------:
-![](newplot.png)  |  ![](newplot1png)
+Demo           |
+:----------------:|
+![](newplot.png)  |
 
-> * Piecharts created through methods of data visualization.
+> * One of the piecharts created through methods of data visualization.
 
 ## What is this?
 A data science project that analyzes two marketing strategies and chooses the best marketing strategy for converting traffic into sales.
@@ -28,7 +28,7 @@ The purpose of this project is to find a highly performant marketing strategy to
 
 ## Project Description
 This repository is a simulation of [Aman Kharwal's original code](https://thecleverprogrammer.com/2022/11/14/a-b-testing-using-python/) and is only proof of the understanding of A/B Testing.
-Detailed should be developed by the analyst based on his/her visualizations! ;)
+Details should be reported by the analyst based on his/her visualizations! ;)
 
 ## Needs of this project
 
